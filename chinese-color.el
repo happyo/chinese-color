@@ -27,9 +27,35 @@
 (defun rgb-to-hex (r g b)
   "Convert RGB values (R, G, B) to a hexadecimal string."
   (format "#%02x%02x%02x" r g b))
-
-
+;; (defconst tcc-00- (rgb-to-hex ) "")
+;; 
+(defconst tcc-001-xinghua (rgb-to-hex 250 220 233) "杏花")
 (defconst tcc-002-yanzhixue (rgb-to-hex 241 222 236) "胭脂雪")
+(defconst tcc-003-chuluyin (rgb-to-hex 237 210 211) "出炉银")
+(defconst tcc-004-tuihong (rgb-to-hex 240 207 227) "退红")
+(defconst tcc-005-kaohong (rgb-to-hex 243 194 217) "靠红")
+
+;;
+(defconst tcc-006-yinhong (rgb-to-hex 231 202 211) "银红")
+(defconst tcc-007-fenhong (rgb-to-hex 239 196 206) "粉红")
+(defconst tcc-008-shuihong (rgb-to-hex 244 179 194) "水红")
+(defconst tcc-009-rouhong (rgb-to-hex 229 183 183) "肉红")
+(defconst tcc-010-handan (rgb-to-hex 239 146 181) "菡萏")
+
+;;
+(defconst tcc-021-yanzhi (rgb-to-hex 179 33 66) "胭脂")
+(defconst tcc-022-muhong (rgb-to-hex 167 67 94) "木红")
+(defconst tcc-023-yanzhichong (rgb-to-hex 153 44 66) "胭脂虫")
+(defconst tcc-024-meiguizi (rgb-to-hex 140 32 54) "玫瑰紫")
+(defconst tcc-025-fukenhong (rgb-to-hex 235 208 194) "弗肯红")
+
+;;
+(defconst tcc-076-danfeng (rgb-to-hex 216 25 24) "丹枫")
+(defconst tcc-077-jiaohong (rgb-to-hex 200 25 29) "蕉红")
+(defconst tcc-078-zhukongyang (rgb-to-hex 181 31 53) "朱孔阳")
+(defconst tcc-079-yahong (rgb-to-hex 176 31 36) "牙红")
+(defconst tcc-080-yinghua (rgb-to-hex 228 184 213) "樱花")
+
 (defconst tcc-081-dingxiang (rgb-to-hex 206 147 180) "丁香")
 (defconst tcc-95-qingzi (rgb-to-hex 197 164 204) "轻紫")
 (defconst tcc-127-biluo (rgb-to-hex 174 208 237) "碧落")
@@ -38,6 +64,14 @@
 (defconst tcc-241-canglang (rgb-to-hex 172 214 204) "沧浪")
 (defconst tcc-285-xueya (rgb-to-hex 233 209 181) "血牙")
 (defconst tcc-269-wuxinlv (rgb-to-hex 191 209 178) "无心绿")
+
+;;
+(defconst tcc-331-zhumo (rgb-to-hex 45 45 48) "朱墨")
+(defconst tcc-332-yuanqing (rgb-to-hex 40 41 43) "元青")
+(defconst tcc-333-shiqing (rgb-to-hex 46 40 46) "石青")
+(defconst tcc-334-junxuan (rgb-to-hex 38 39 41) "袀玄")
+(defconst tcc-335-tiezong (rgb-to-hex 26 4 4) "铁棕")
+
 (defconst tcc-351-ningzhi (rgb-to-hex 241 242 229) "凝脂")
 
 ;; 定义一个函数，用于创建 face
