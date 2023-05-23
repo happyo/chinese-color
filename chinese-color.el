@@ -61,9 +61,45 @@
 (defconst tcc-127-biluo (rgb-to-hex 174 208 237) "碧落")
 (defconst tcc-162-huangbaiyou (rgb-to-hex 254 235 192) "黄白游")
 (defconst tcc-208-duanchang (rgb-to-hex 232 237 185) "断肠")
+
+;; 221
+(defconst tcc-221-qingjie (rgb-to-hex 183 185 77) "青芥")
+(defconst tcc-222-meiziqing (rgb-to-hex 169 189 112) "梅子青")
+(defconst tcc-223-pingguo (rgb-to-hex 160 191 82) "苹果")
+(defconst tcc-224-lvcha (rgb-to-hex 145 184 33) "绿茶")
+(defconst tcc-225-liulv (rgb-to-hex 131 173 40) "柳绿")
+
+;; 226
+(defconst tcc-226-sunlv (rgb-to-hex 132 167 64) "笋绿")
+(defconst tcc-227-conglv (rgb-to-hex 121 154 100) "葱绿")
+(defconst tcc-228-bishan (rgb-to-hex 113 152 71) "碧山")
+(defconst tcc-229-qiukui (rgb-to-hex 107 140 50) "秋葵")
+(defconst tcc-230-jinglv (rgb-to-hex 70 140 55) "京绿")
+
+;; 231
+(defconst tcc-231-zhumulv (rgb-to-hex 0 149 62) "祖母绿")
+(defconst tcc-232-yangse (rgb-to-hex 80 121 54) "秧色")
+(defconst tcc-233-minglv (rgb-to-hex 73 134 77) "明绿")
+(defconst tcc-234-qingqing (rgb-to-hex 76 117 72) "青青")
+(defconst tcc-235-zhulv (rgb-to-hex 53 121 68) "竹绿")
+
 (defconst tcc-241-canglang (rgb-to-hex 172 214 204) "沧浪")
 (defconst tcc-285-xueya (rgb-to-hex 233 209 181) "血牙")
 (defconst tcc-269-wuxinlv (rgb-to-hex 191 209 178) "无心绿")
+
+;; 271
+(defconst tcc-271-qinghui (rgb-to-hex 179 181 156) "青灰")
+(defconst tcc-272-mise (rgb-to-hex 191 192 150) "秘色")
+(defconst tcc-273-tianchi (rgb-to-hex 182 186 145) "田赤")
+(defconst tcc-274-ailv (rgb-to-hex 157 170 108) "艾绿")
+(defconst tcc-275-doulv (rgb-to-hex 145 174 132) "豆绿")
+
+;; 326
+(defconst tcc-326-wahui (rgb-to-hex 110 113 113) "瓦灰")
+(defconst tcc-326-canmo (rgb-to-hex 98 93 107) "黪墨")
+(defconst tcc-326-tiese (rgb-to-hex 89 88 97) "铁色")
+(defconst tcc-326-yingbei (rgb-to-hex 57 54 63) "鹰背")
+(defconst tcc-326-yanmo (rgb-to-hex 53 53 56) "烟墨")
 
 ;;
 (defconst tcc-331-zhumo (rgb-to-hex 45 45 48) "朱墨")
@@ -71,6 +107,13 @@
 (defconst tcc-333-shiqing (rgb-to-hex 46 40 46) "石青")
 (defconst tcc-334-junxuan (rgb-to-hex 38 39 41) "袀玄")
 (defconst tcc-335-tiezong (rgb-to-hex 26 4 4) "铁棕")
+
+;;
+(defconst tcc-341-ermuyu (rgb-to-hex 239 236 230) "二目鱼")
+(defconst tcc-342-congbai (rgb-to-hex 235 238 232) "葱白")
+(defconst tcc-343-qianyun (rgb-to-hex 224 240 235) "浅云")
+(defconst tcc-344-baie (rgb-to-hex 224 225 217) "白垩")
+(defconst tcc-345-yunmu (rgb-to-hex 223 218 213) "云母")
 
 (defconst tcc-351-ningzhi (rgb-to-hex 241 242 229) "凝脂")
 
