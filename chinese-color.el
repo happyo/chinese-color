@@ -87,6 +87,20 @@
 (defvar tcc-094-ningyezi (rgb-to-hex 50 22 60) "凝夜紫")
 (defvar tcc-095-qingzi (rgb-to-hex 197 164 204) "轻紫")
 
+;; 101
+(defvar tcc-101-qinglian (rgb-to-hex 123 90 163) "青莲")
+(defvar tcc-102-ziluolan (rgb-to-hex 95 71 154) "紫罗兰")
+(defvar tcc-103-sangonzi (rgb-to-hex 78 60 117) "三公子")
+(defvar tcc-104-gandie (rgb-to-hex 51 34 79) "绀蝶")
+(defvar tcc-105-youzi (rgb-to-hex 35 27 47) "油紫")
+
+;; 106
+(defvar tcc-106-mozi (rgb-to-hex 40 29 44) "墨紫")
+(defvar tcc-107-ouhe (rgb-to-hex 218 204 205) "藕褐")
+(defvar tcc-108-ziyun (rgb-to-hex 184 189 204) "紫云")
+(defvar tcc-109-canzi (rgb-to-hex 178 168 182) "黪紫")
+(defvar tcc-110-xuehui (rgb-to-hex 167 136 157) "雪灰")
+
 ;; 126
 (defvar tcc-127-biluo (rgb-to-hex 174 208 237) "碧落")
 
@@ -109,6 +123,13 @@
 (defvar tcc-193-jinhuang (rgb-to-hex 211 161 23) "金黄")
 (defvar tcc-194-zhengli (rgb-to-hex 204 145 17) "蒸栗")
 (defvar tcc-195-xinghuang (rgb-to-hex 217 135 0) "杏黄")
+
+;; 216
+(defvar tcc-216-qiuxiang (rgb-to-hex 159 125 55) "秋香")
+(defvar tcc-217-oubi (rgb-to-hex 216 230 153) "欧碧")
+(defvar tcc-218-qinggu (rgb-to-hex 199 205 140) "青古")
+(defvar tcc-219-quchen (rgb-to-hex 192 208 157) "麴尘")
+(defvar tcc-220-putaoshui (rgb-to-hex 183 199 65) "葡萄水")
 
 ;; 221
 (defvar tcc-221-qingjie (rgb-to-hex 183 185 77) "青芥")
