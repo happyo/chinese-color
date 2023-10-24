@@ -101,6 +101,20 @@
 (defvar tcc-109-canzi (rgb-to-hex 178 168 182) "黪紫")
 (defvar tcc-110-xuehui (rgb-to-hex 167 136 157) "雪灰")
 
+;; 116
+(defvar tcc-116-fenqing (rgb-to-hex 196 218 214) "粉青")
+(defvar tcc-117-danqing (rgb-to-hex 195 217 214) "蛋青")
+(defvar tcc-118-tianqing (rgb-to-hex 198 215 219) "天青")
+(defvar tcc-119-xiaqing (rgb-to-hex 148 169 184) "虾青")
+(defvar tcc-120-songlan (rgb-to-hex 108 122 143) "菘蓝")
+
+;; 121
+(defvar tcc-121-yuyangran (rgb-to-hex 87 100 112) "育阳染")
+(defvar tcc-122-qingdai (rgb-to-hex 67 70 95) "青黛")
+(defvar tcc-123-huoxun (rgb-to-hex 47 50 67) "火熏")
+(defvar tcc-124-yuebai (rgb-to-hex 212 229 239) "月白")
+(defvar tcc-125-luansetian (rgb-to-hex 200 216 225) "卵色天")
+
 ;; 126
 (defvar tcc-126-dongfangjibai (rgb-to-hex 175 215 236) "东方即白")
 (defvar tcc-127-biluo (rgb-to-hex 174 208 237) "碧落")
