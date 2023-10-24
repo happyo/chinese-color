@@ -26,7 +26,7 @@
 
 (defun rgb-to-hex (r g b)
   "Convert RGB values (R, G, B) to a hexadecimal string."
-  (format "#%01x%02x%02x" r g b))
+  (format "#%02x%02x%02x" r g b))
 
 ;; 1
 (defvar tcc-001-xinghua (rgb-to-hex 250 220 233) "杏花")
@@ -90,7 +90,7 @@
 ;; 101
 (defvar tcc-101-qinglian (rgb-to-hex 123 90 163) "青莲")
 (defvar tcc-102-ziluolan (rgb-to-hex 95 71 154) "紫罗兰")
-(defvar tcc-103-sangonzi (rgb-to-hex 78 60 117) "三公子")
+(defvar tcc-103-sangongzi (rgb-to-hex 78 60 117) "三公子")
 (defvar tcc-104-gandie (rgb-to-hex 51 34 79) "绀蝶")
 (defvar tcc-105-youzi (rgb-to-hex 35 27 47) "油紫")
 
@@ -102,7 +102,25 @@
 (defvar tcc-110-xuehui (rgb-to-hex 167 136 157) "雪灰")
 
 ;; 126
+(defvar tcc-126-dongfangjibai (rgb-to-hex 175 215 236) "东方即白")
 (defvar tcc-127-biluo (rgb-to-hex 174 208 237) "碧落")
+(defvar tcc-128-qielan (rgb-to-hex 136 171 218) "窃蓝")
+(defvar tcc-129-ruolan (rgb-to-hex 111 155 198) "挼蓝")
+(defvar tcc-130-falan (rgb-to-hex 48 174 207) "法蓝")
+
+;; 131
+(defvar tcc-131-cangcang (rgb-to-hex 71 129 195) "苍苍")
+(defvar tcc-132-weilan (rgb-to-hex 40 116 175) "尉蓝")
+(defvar tcc-133-siqing (rgb-to-hex 55 106 179) "四青")
+(defvar tcc-134-sanqing (rgb-to-hex 47 89 163) "三青")
+(defvar tcc-135-erqing (rgb-to-hex 30 80 162) "二青")
+
+;; 156
+(defvar tcc-156-tianshuibi (rgb-to-hex 90 164 174) "天水碧")
+(defvar tcc-157-facui (rgb-to-hex 0 173 176) "法翠")
+(defvar tcc-158-baiqing (rgb-to-hex 79 147 166) "白青")
+(defvar tcc-159-cuilan (rgb-to-hex 65 136 138) "翠蓝")
+(defvar tcc-160-pinyue (rgb-to-hex 60 118 153) "品月")
 
 ;; 161
 (defvar tcc-162-huangbaiyou (rgb-to-hex 254 235 192) "黄白游")
@@ -162,6 +180,13 @@
 (defvar tcc-273-tianchi (rgb-to-hex 182 186 145) "田赤")
 (defvar tcc-274-ailv (rgb-to-hex 157 170 108) "艾绿")
 (defvar tcc-275-doulv (rgb-to-hex 145 174 132) "豆绿")
+
+;; 276
+(defvar tcc-276-qinggui (rgb-to-hex 148 146 97) "青圭")
+(defvar tcc-277-qiugui (rgb-to-hex 135 140 180) "秋瑰")
+(defvar tcc-278-cangtai (rgb-to-hex 123 130 77) "苍苔")
+(defvar tcc-279-xieqing (rgb-to-hex 109 121 106) "蟹青")
+(defvar tcc-280-youlv (rgb-to-hex 80 102 73) "油绿")
 
 ;; 316
 (defvar tcc-316-niurong (rgb-to-hex 184 193 196) "牛绒")
