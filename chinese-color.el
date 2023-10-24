@@ -56,6 +56,20 @@
 (defvar tcc-024-meiguizi (rgb-to-hex 140 32 54) "玫瑰紫")
 (defvar tcc-025-fukenhong (rgb-to-hex 235 208 194) "弗肯红")
 
+;; 26
+(defvar tcc-026-haitianxia (rgb-to-hex 248 199 190) "海天霞")
+(defvar tcc-027-shiyangjin (rgb-to-hex 248 198 181) "石样锦")
+(defvar tcc-028-quanse (rgb-to-hex 239 171 132) "縓色")
+(defvar tcc-029-zhuyantuo (rgb-to-hex 239 133 109) "朱颜酡")
+(defvar tcc-030-xiaohong (rgb-to-hex 230 117 95) "小红")
+
+;; 56
+(defvar tcc-056-jinyun (rgb-to-hex 238 119 85) "缙云")
+(defvar tcc-057-mohong (rgb-to-hex 222 105 76) "抹红")
+(defvar tcc-058-lingxiao (rgb-to-hex 233 112 64) "凌霄")
+(defvar tcc-059-qiaohong (rgb-to-hex 233 70 77) "翘红")
+(defvar tcc-060-xingyi (rgb-to-hex 234 85 50) "猩衣")
+
 ;; 61
 (defvar tcc-061-huangdan (rgb-to-hex 234 85 20) "黄丹")
 (defvar tcc-062-zhubiao (rgb-to-hex 233 71 33) "朱膘")
