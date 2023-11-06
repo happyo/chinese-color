@@ -143,6 +143,13 @@
 (defvar tcc-134-sanqing (rgb-to-hex 47 89 163) "三青")
 (defvar tcc-135-erqing (rgb-to-hex 30 80 162) "二青")
 
+;; 151
+(defvar tcc-151-yaqing (rgb-to-hex 18 39 79) "鸦青")
+(defvar tcc-152-jilan (rgb-to-hex 16 30 74) "霁蓝")
+(defvar tcc-153-haiqing (rgb-to-hex 8 15 64) "海青")
+(defvar tcc-154-xizi (rgb-to-hex 135 192 202) "西子")
+(defvar tcc-155-songshi (rgb-to-hex 117 193 196) "松石")
+
 ;; 156
 (defvar tcc-156-tianshuibi (rgb-to-hex 90 164 174) "天水碧")
 (defvar tcc-157-facui (rgb-to-hex 0 173 176) "法翠")
@@ -198,7 +205,20 @@
 (defvar tcc-234-qingqing (rgb-to-hex 76 117 72) "青青")
 (defvar tcc-235-zhulv (rgb-to-hex 53 121 68) "竹绿")
 
+;; 241
 (defvar tcc-241-canglang (rgb-to-hex 172 214 204) "沧浪")
+(defvar tcc-242-fenlv (rgb-to-hex 178 198 191) "粉绿")
+(defvar tcc-243-yinggelv (rgb-to-hex 165 209 181) "鹦哥绿")
+(defvar tcc-244-douqing (rgb-to-hex 161 191 176) "豆青")
+(defvar tcc-245-canglang (rgb-to-hex 147 189 173) "苍筤")
+
+;; 246
+(defvar tcc-246-congqing (rgb-to-hex 140 183 162) "葱青")
+(defvar tcc-247-shuilv (rgb-to-hex 141 183 153) "水绿")
+(defvar tcc-248-mailv (rgb-to-hex 142 175 140) "麦绿")
+(defvar tcc-249-silv (rgb-to-hex 107 179 146) "四绿")
+(defvar tcc-250-piaobi (rgb-to-hex 122 165 145) "缥碧")
+
 (defvar tcc-285-xueya (rgb-to-hex 233 209 181) "血牙")
 (defvar tcc-269-wuxinlv (rgb-to-hex 191 209 178) "无心绿")
 
