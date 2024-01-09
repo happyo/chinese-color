@@ -158,7 +158,11 @@
 (defvar tcc-160-pinyue (rgb-to-hex 60 118 153) "品月")
 
 ;; 161
+(defvar tcc-161-roulan (rgb-to-hex 0 110 143) "柔蓝")
 (defvar tcc-162-huangbaiyou (rgb-to-hex 254 235 192) "黄白游")
+(defvar tcc-163-songhua (rgb-to-hex 255 238 111) "松花")
+(defvar tcc-164-huangbo (rgb-to-hex 254 242 99) "黄檗")
+(defvar tcc-165-zhizi (rgb-to-hex 253 216 118) "栀子")
 
 ;; 166
 (defvar tcc-166-huangliliu (rgb-to-hex 252 222 95) "黄栗留")
@@ -166,6 +170,20 @@
 (defvar tcc-168-ganhuang (rgb-to-hex 244 207 57) "柑黄")
 (defvar tcc-169-yujinqun (rgb-to-hex 254 211 0) "郁金裙")
 (defvar tcc-170-cihuang (rgb-to-hex 234 194 29) "雌黄")
+
+;; 171
+(defvar tcc-171-minghuang (rgb-to-hex 252 200 0) "明黄")
+(defvar tcc-172-nenhuang (rgb-to-hex 242 200 103) "嫩黄")
+(defvar tcc-173-chaomi (rgb-to-hex 231 184 100) "炒米")
+(defvar tcc-174-yuanyan (rgb-to-hex 241 190 77) "圆眼")
+(defvar tcc-175-jincao (rgb-to-hex 241 189 63) "荩草")
+
+;; 181
+(defvar tcc-181-guihuang (rgb-to-hex 237 160 31) "桂黄")
+(defvar tcc-182-zhongming (rgb-to-hex 239 160 0) "中明")
+(defvar tcc-183-huangliuli (rgb-to-hex 229 168 75) "黄琉璃")
+(defvar tcc-184-xionghuang (rgb-to-hex 242 153 75) "雄黄")
+(defvar tcc-185-houtu (rgb-to-hex 225 163 75) "后土")
 
 ;; 206
 (defvar tcc-208-duanchang (rgb-to-hex 232 237 185) "断肠")
@@ -273,34 +291,34 @@
 
 (defvar tcc-351-ningzhi (rgb-to-hex 241 242 229) "凝脂")
 
-;; ;; 定义一个函数，用于创建 face
-;; (defun my-theme-utils--create-face (color)
-;;   (let ((face-name (intern (concat "my-theme-utils-face-" color))))
-;;     (eval `(defface ,face-name
-;;              '((t (:background ,color)))
-;;                ,(concat "Face for background color " color)
-;;                :group 'my-theme-utils))
-;;     face-name))
+;; 定义一个函数，用于创建 face
+(defun my-theme-utils--create-face (color)
+  (let ((face-name (intern (concat "my-theme-utils-face-" color))))
+    (eval `(defface ,face-name
+             '((t (:background ,color)))
+               ,(concat "Face for background color " color)
+               :group 'my-theme-utils))
+    face-name))
 
-;; ;; 定义一个函数，用于获取 face 的 symbol
-;; (defun my-theme-utils--get-face (rgb)
-;;   (my-theme-utils--create-face (apply #'rgb-to-hex rgb)))
+;; 定义一个函数，用于获取 face 的 symbol
+(defun my-theme-utils--get-face (rgb)
+  (my-theme-utils--create-face (apply #'rgb-to-hex rgb)))
 
-;; (defvar colorize-rgb-to-hex-keywords
-;;   `((,(rx "(" (group "rgb-to-hex") (* whitespace) (group (1+ (in "0-9"))) (* whitespace) (group (1+ (in "0-9"))) (* whitespace) (group (1+ (in "0-9"))))
-;;      (1 (my-theme-utils--get-face (list (string-to-number (match-string 2)) (string-to-number (match-string 3)) (string-to-number (match-string 4)))) prepend))
-;;     (,(rx bow (group "tcc-") (1+ (in "0-9")) (0+ (in "a-z" "A-Z")) (* whitespace) "=" (* whitespace) (group "(" "rgb-to-hex"))
-;;      (1 (my-theme-utils--get-face (list (string-to-number (match-string 2)) (string-to-number (match-string 3)) (string-to-number (match-string 4)))) prepend))))
+(defvar colorize-rgb-to-hex-keywords
+  `((,(rx "(" (group "rgb-to-hex") (* whitespace) (group (1+ (in "0-9"))) (* whitespace) (group (1+ (in "0-9"))) (* whitespace) (group (1+ (in "0-9"))))
+     (1 (my-theme-utils--get-face (list (string-to-number (match-string 2)) (string-to-number (match-string 3)) (string-to-number (match-string 4)))) prepend))
+    (,(rx bow (group "tcc-") (1+ (in "0-9")) (0+ (in "a-z" "A-Z")) (* whitespace) "=" (* whitespace) (group "(" "rgb-to-hex"))
+     (1 (my-theme-utils--get-face (list (string-to-number (match-string 2)) (string-to-number (match-string 3)) (string-to-number (match-string 4)))) prepend))))
 
-;; (define-minor-mode colorize-rgb-to-hex
-;;   "Minor mode to colorize `rgb-to-hex' calls and variables with their respective colors."
-;;   :lighter " Colorize"
-;;   (if colorize-rgb-to-hex
-;;       (progn
-;;         (font-lock-add-keywords nil colorize-rgb-to-hex-keywords)
-;;         (font-lock-flush))
-;;     (font-lock-remove-keywords nil colorize-rgb-to-hex-keywords)
-;;     (font-lock-flush)))
+(define-minor-mode colorize-rgb-to-hex
+  "Minor mode to colorize `rgb-to-hex' calls and variables with their respective colors."
+  :lighter " Colorize"
+  (if colorize-rgb-to-hex
+      (progn
+        (font-lock-add-keywords nil colorize-rgb-to-hex-keywords)
+        (font-lock-flush))
+    (font-lock-remove-keywords nil colorize-rgb-to-hex-keywords)
+    (font-lock-flush)))
 
 (provide 'chinese-color)
 ;;; chinese-color.el ends here
