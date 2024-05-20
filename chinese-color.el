@@ -93,6 +93,10 @@
 
 ;; 81
 (defvar tcc-081-dingxiang (rgb-to-hex 206 147 180) "丁香")
+(defvar tcc-082-langganzi (rgb-to-hex 212 106 143) "琅玕紫")
+(defvar tcc-083-yanzhishui (rgb-to-hex 197 90 133) "胭脂水")
+(defvar tcc-084-lianhong (rgb-to-hex 193 82 127) "莲红")
+(defvar tcc-085-hongzhizhu (rgb-to-hex 193 67 121) "红踯躅")
 
 ;; 91
 (defvar tcc-091-putaoqing (rgb-to-hex 80 29 70) "葡萄青")
@@ -100,6 +104,13 @@
 (defvar tcc-093-ziqie (rgb-to-hex 73 33 74) "紫茄")
 (defvar tcc-094-ningyezi (rgb-to-hex 50 22 60) "凝夜紫")
 (defvar tcc-095-qingzi (rgb-to-hex 197 164 204) "轻紫")
+
+;; 96
+(defvar tcc-096-lianhua (rgb-to-hex 197 154 197) "楝花")
+(defvar tcc-097-qiehua (rgb-to-hex 187 151 197) "茄花")
+(defvar tcc-098-jinhua (rgb-to-hex 186 131 183) "槿花")
+(defvar tcc-099-xueqing (rgb-to-hex 165 154 202) "雪青")
+(defvar tcc-100-ziyuan (rgb-to-hex 117 124 187) "紫苑")
 
 ;; 101
 (defvar tcc-101-qinglian (rgb-to-hex 123 90 163) "青莲")
