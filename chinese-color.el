@@ -154,6 +154,13 @@
 (defvar tcc-134-sanqing (rgb-to-hex 47 89 163) "三青")
 (defvar tcc-135-erqing (rgb-to-hex 30 80 162) "二青")
 
+;; 136
+(defvar tcc-131-danfan (rgb-to-hex 0 69 216) "胆矾")
+(defvar tcc-137-kongqing (rgb-to-hex 1 74 143) "空青")
+(defvar tcc-138-salan (rgb-to-hex 30 59 122) "洒蓝")
+(defvar tcc-139-qunqing (rgb-to-hex 11 50 140) "群青")
+(defvar tcc-140-touqing (rgb-to-hex 12 52 132) "头青")
+
 ;; 151
 (defvar tcc-151-yaqing (rgb-to-hex 18 39 79) "鸦青")
 (defvar tcc-152-jilan (rgb-to-hex 16 30 74) "霁蓝")
